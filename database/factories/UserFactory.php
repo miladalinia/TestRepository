@@ -2,6 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
+use App\Customer;
 use App\Product;
 use App\User;
 use Illuminate\Support\Str;
@@ -37,9 +38,19 @@ $factory->define(Product::class, function (Faker $faker) {
         'publish_year' => Str::random(4),
         'product_code' => $faker->numberBetween(0, 5),
         'type' => $faker->sentence,
-        'category' => $faker->sentence,
+        'category' => $faker->company,
         'weight' => $faker->numberBetween(0, 5),
         'price' => $faker->numberBetween(0, 5),
         'image' => url('https://via.placeholder.com/150'),
+    ];
+});
+
+$factory->define(Customer::class, function (Faker $faker) {
+    return [
+        'name' => $faker->name,
+        'city' => $faker->city,
+        'address' => $faker->address,
+        'postal_code' => $faker->postcode,
+        'country' => $faker->country
     ];
 });

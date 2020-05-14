@@ -13,6 +13,10 @@ class Product extends Model
         'category', 'weight', 'price',
         'image',
     ];
+    protected $table = 'products';
+    public $timestamps = true;
+
+    protected $touches = ['user'];
 
     public function user()
     {

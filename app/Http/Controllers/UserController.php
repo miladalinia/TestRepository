@@ -12,8 +12,8 @@ class UserController extends Controller
     public function index()
     {
 
-        $users = User::with('products')->get();
-        return $users;
+        $users = User::withCount('products')->get();
+//        return $users;
         return view('users.index', ['users' => $users]);
     }
 }
