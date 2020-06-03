@@ -38,7 +38,7 @@ Route::get('notify', 'NotificationController@notify');
 Route::view('/notification', 'notification');
 
 
-// Real Time Event Broadcasting with Laravel 6 and Pusher
+//Real Time Event Broadcasting with Laravel 6 and Pusher
 Route::get('/post', 'PostController@index')->name('post')->middleware('auth');
 Route::post('/post', 'PostController@createPost')->middleware('auth');
 
