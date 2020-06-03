@@ -47,7 +47,7 @@ Route::post('/post', 'PostController@createPost')->middleware('auth');
 Route::get('live_search', 'LiveSearch@index');
 Route::get('live_search/action', 'LiveSearch@action')->name('live_search.action');
 
-////modal test
+//modal bootstrap test
 Route::get('modal', 'PostController@modalTest');
 
 Route::get('products', 'ProductController@index');
