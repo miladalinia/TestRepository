@@ -50,5 +50,6 @@ Route::get('live_search/action', 'LiveSearch@action')->name('live_search.action'
 //modal bootstrap edited by me in local repository
 Route::get('modal', 'PostController@modalTest');
 
+//ajax
 Route::get('products', 'ProductController@index');
 Route::get('products/action', 'ProductController@action')->name('products.action');
