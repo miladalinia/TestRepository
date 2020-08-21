@@ -98,7 +98,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            <i class="fa fa-eye"></i>  Laravel {{__('messages.hello',['name'=>'علی'])}}
+            <i class="fa fa-eye"></i>  Laravel {{__('messages.hello')}}
         </div>
 
         <div class="links">

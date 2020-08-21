@@ -57,7 +57,7 @@ Route::get('products/action', 'ProductController@action')->name('products.action
 
 
 Route::get('local',function (){
-    return App::getLocale();
+//    return App::getLocale();
     if (App::isLocal('en')){
         echo 'nice';
     }

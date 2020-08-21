@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'hello'=>'سلام :name'
+    'hello'=>'سلام'
 ];
