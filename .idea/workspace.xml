@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd929d6-cc9f-4c22-a75f-9d61bf2b96dd" name="Default Changelist" comment="" />
+    <list default="true" id="2bd929d6-cc9f-4c22-a75f-9d61bf2b96dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_8_21_20__2_51_PM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/fa/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +175,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -204,11 +214,16 @@
       <workItem from="1589902540800" duration="16000" />
       <workItem from="1590242843626" duration="49000" />
       <workItem from="1591177043213" duration="3841000" />
+      <workItem from="1591389713863" duration="1404000" />
+      <workItem from="1591507493990" duration="45000" />
+      <workItem from="1593404240829" duration="623000" />
+      <workItem from="1593507403177" duration="608000" />
+      <workItem from="1598005274453" duration="3215000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -226,22 +241,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="345" y="198" width="725" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589230313433">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="345" y="198" width="725" height="396" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1317.741@49.27.1317.741" timestamp="1589230313433" />
-    <state x="440" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589054321434">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="440" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/49.27.1317.741@49.27.1317.741" timestamp="1589054321434" />
-    <state x="334" y="27" width="751" height="741" key="#phpunit.xml" timestamp="1589032120921">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="334" y="27" width="751" height="741" key="#phpunit.xml/49.27.1317.741@49.27.1317.741" timestamp="1589032120921" />
-    <state x="441" y="311" width="523" height="267" key="ComposerInitDialogKey" timestamp="1588786231053">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="441" y="311" width="523" height="267" key="ComposerInitDialogKey/49.27.1317.741@49.27.1317.741" timestamp="1588786231053" />
     <state x="499" y="154" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589902555758">
       <screen x="62" y="27" width="1304" height="741" />
     </state>
@@ -251,21 +250,13 @@
       <screen x="49" y="27" width="1317" height="741" />
     </state>
     <state x="450" y="116" width="505" height="561" key="NewPhpClassDialog/49.27.1317.741@49.27.1317.741" timestamp="1589373642654" />
-    <state x="503" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1588972572944">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state x="509" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598009673396">
+      <screen x="62" y="27" width="1304" height="741" />
     </state>
-    <state x="503" y="322" width="399" height="149" key="NewPhpFileDialog/49.27.1317.741@49.27.1317.741" timestamp="1588972572944" />
-    <state x="442" y="156" width="520" height="481" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1588791382613">
-      <screen x="49" y="27" width="1317" height="741" />
+    <state x="509" y="323" width="399" height="156" key="NewPhpFileDialog/62.27.1304.741@62.27.1304.741" timestamp="1598009673396" />
+    <state x="495" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598010836355">
+      <screen x="62" y="27" width="1304" height="741" />
     </state>
-    <state x="442" y="156" width="520" height="481" key="PHPComposerAddDependencyDialogDimensionKey/49.27.1317.741@49.27.1317.741" timestamp="1588791382613" />
-    <state x="199" y="38" key="SettingsEditor" timestamp="1589303744058">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="199" y="38" key="SettingsEditor/49.27.1317.741@49.27.1317.741" timestamp="1589303744058" />
-    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588871202339">
-      <screen x="49" y="27" width="1317" height="741" />
-    </state>
-    <state x="370" y="89" width="672" height="678" key="search.everywhere.popup/49.27.1317.741@49.27.1317.741" timestamp="1588871202339" />
+    <state x="495" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.27.1304.741@62.27.1304.741" timestamp="1598010836355" />
   </component>
 </project>
