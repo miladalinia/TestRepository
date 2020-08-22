@@ -1,7 +1,6 @@
 <?php
 
 use App\Events\MyEvent;
-use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
@@ -56,9 +55,7 @@ Route::get('products', 'ProductController@index');
 Route::get('products/action', 'ProductController@action')->name('products.action');
 
 
-Route::get('local',function (){
-//    return App::getLocale();
-    if (App::isLocal('en')){
-        echo 'nice';
-    }
+
+Route::get('local', function () {
+    echo 'i am develop branch';
 });
