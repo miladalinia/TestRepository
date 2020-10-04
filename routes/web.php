@@ -57,5 +57,5 @@ Route::get('products/action', 'ProductController@action')->name('products.action
 
 
 Route::get('local', function () {
-    echo 'i am develop branch';
+    echo 'i am master branch';
 });
