@@ -55,7 +55,8 @@ Route::get('products', 'ProductController@index');
 Route::get('products/action', 'ProductController@action')->name('products.action');
 
 
+Route::get('testy', function () {
 
-Route::get('local', function () {
-    echo 'i am master branch';
+    define('AGE', '20');
+    var_dump(AGE);
 });
